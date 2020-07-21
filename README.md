@@ -26,9 +26,9 @@ Which also includes server time and hostname.
 ## Usage
 
 ```
-./slackme this is a test message
-curl -O http://example.org/large_file.zip && ./slackme download is complete
-./long_running_task.sh | xargs ./slackme
-make build && ./slackme build is complete
+slackme this is a test message
+curl -O http://example.org/large_file.zip && slackme download is complete
+./long_running_task.sh | xargs slackme
+make build && slackme build is complete
 ```
 
